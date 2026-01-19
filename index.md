@@ -1,5 +1,4 @@
 ---
-title: Notas ia
+title: Notas en clase
 ---
-lorem ipsum ~~~~~~~~~~~~~
 
