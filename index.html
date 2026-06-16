@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Notas IA</title>
+    <style>
+        body { display: flex; margin: 0; height: 100vh; font-family: monospace; background: #0f172a; color: #f8fafc; overflow: hidden; }
+        #sidebar { width: 320px; background: #1e293b; border-right: 1px solid #334155; padding: 20px; overflow-y: auto; }
+        #sidebar h1 { font-size: 1.2rem; color: #bef264; border-bottom: 1px solid #334155; padding-bottom: 10px; }
+        #sidebar a { display: block; padding: 10px; margin: 5px 0; color: #cbd5e1; text-decoration: none; cursor: pointer; border-radius: 4px; transition: 0.2s; }
+        #sidebar a:hover { background: #334155; color: #fff; }
+        #sidebar a strong { color: #bef264; }
+        #content { flex-grow: 1; }
+        object { width: 100%; height: 100%; border: none; }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <h1>Notas IA — Waissman</h1>
+        <a onclick="document.getElementById('visor').data='notas/15_01_26.pdf#view=FitH'">15/01/26</a>
+<a onclick="document.getElementById('visor').data='notas/16_1_26.pdf#view=FitH'">16/1/26</a>
+<a onclick="document.getElementById('visor').data='notas/19_1_26.pdf#view=FitH'">19/1/26</a>
+<a onclick="document.getElementById('visor').data='notas/20_1_26.pdf#view=FitH'">20/1/26</a>
+<a onclick="document.getElementById('visor').data='notas/22_1_26.pdf#view=FitH'">22/1/26</a>
+<a onclick="document.getElementById('visor').data='notas/23_1_26.pdf#view=FitH'">23/1/26</a>
+<a onclick="document.getElementById('visor').data='notas/26_1_26.pdf#view=FitH'">26/1/26</a>
+<a onclick="document.getElementById('visor').data='notas/27_1_26.pdf#view=FitH'">27/1/26</a>
+<a onclick="document.getElementById('visor').data='notas/28_1_26.pdf#view=FitH'">28/1/26</a>
+<a onclick="document.getElementById('visor').data='notas/29_1_26.pdf#view=FitH'">29/1/26</a>
+<a onclick="document.getElementById('visor').data='notas/30_1_26.pdf#view=FitH'">30/1/26</a>
+<a onclick="document.getElementById('visor').data='notas/3_2_26.pdf#view=FitH'">3/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/4_2_26.pdf#view=FitH'">4/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/6_2_26.pdf#view=FitH'">6/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/9_2_26.pdf#view=FitH'">9/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/10_2_26.pdf#view=FitH'">10/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/11_2_26.pdf#view=FitH'">11/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/13_2_26.pdf#view=FitH'">13/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/16_2_26.pdf#view=FitH'">16/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/17_2_26.pdf#view=FitH'">17/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/18_2_26.pdf#view=FitH'">18/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/20_2_26.pdf#view=FitH'">20/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/23_2_26.pdf#view=FitH'">23/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/24_2_26.pdf#view=FitH'">24/2/26</a>
+<a onclick="document.getElementById('visor').data='notas/25_2_26 poda alfa beta.pdf#view=FitH'">25/2/26 poda alfa beta</a>
+<a onclick="document.getElementById('visor').data='notas/4_2_26 actividad 6.pdf#view=FitH'">4/2/26 actividad 6</a>
+<a onclick="document.getElementById('visor').data='notas/6_3_26 probabilidad.pdf#view=FitH'">6/3/26 probabilidad</a>
+<a onclick="document.getElementById('visor').data='notas/12_3_26 programa.pdf#view=FitH'">12/3/26 programa</a>
+<a onclick="document.getElementById('visor').data='notas/13_3_26.pdf#view=FitH'">13/3/26</a>
+<a onclick="document.getElementById('visor').data='notas/20_3_26.pdf#view=FitH'">20/3/26</a>
+<a onclick="document.getElementById('visor').data='notas/9_3_26.pdf#view=FitH'">9/3/26</a>
+<a onclick="document.getElementById('visor').data='notas/10_3_26.pdf#view=FitH'">10/3/26</a>
+<a onclick="document.getElementById('visor').data='notas/6_4_26.pdf#view=FitH'">6/4/26</a>
+<a onclick="document.getElementById('visor').data='notas/8_4_26.pdf#view=FitH'">8/4/26</a>
+<a onclick="document.getElementById('visor').data='notas/14_4_26 codigo.pdf#view=FitH'">14/4/26 codigo</a>
+<a onclick="document.getElementById('visor').data='notas/11_5_26.pdf#view=FitH'">11/5/26</a>
+<a onclick="document.getElementById('visor').data='notas/14_05_26.pdf#view=FitH'">14/05/26</a>
+<a onclick="document.getElementById('visor').data='notas/5__28_26 mdp.pdf#view=FitH'">5//28/26 mdp</a>
+<a onclick="document.getElementById('visor').data='notas/5_29_26 Rl.pdf#view=FitH'">5/29/26 Rl</a>
+
+    </div>
+    <div id="content">
+        <object id="visor" data="notas/15_01_26.pdf#view=FitH" type="application/pdf"></object>
+    </div>
+</body>
+</html>
